@@ -132,7 +132,7 @@ build/Debug/
 - `MakeCannyEdge(threshold1, threshold2)`
 - `MakeResize(width, height)`
 
-## 예시 사용법
+## 예시 사용법 - [이미지 처리 함수 예시](./FunctionExampleOfUse.md)
 
 ### lib(Debug) 언급 및 헤더 포함
 
