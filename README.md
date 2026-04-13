@@ -3,6 +3,7 @@
 이미지 처리를 해주는 cv api 서버를 활용하기 위한 C++ 라이브러리 개발
 
 ## 세팅
+- 개발 환경은  Window, VS2026, C++20
 
 1. Visual Studio / CMake / vcpkg 준비
 
@@ -133,12 +134,12 @@ build/Debug/
 
 ## 예시 사용법
 
-### lib 언급 및 헤더 포함
+### lib(Debug) 언급 및 헤더 포함
 
 ```cpp
-#pragma comment(lib, "ImageApiSdk.lib")
-#pragma comment(lib, "libcurl-d.lib")
-#pragma comment(lib, "zlibd.lib") 
+#pragma comment(lib, "Debug\\ImageApiSdk.lib")
+#pragma comment(lib, "Debug\\libcurl-d.lib")
+#pragma comment(lib, "Debug\\zlibd.lib") 
 
 #include "ImageApiClient.h"
 #include "Operations.h"
@@ -153,7 +154,7 @@ image_api::ImageApiClient client("http://127.0.0.1:8080");
 AWS 서버 테스트 시에는 base URL을 실제 서버 주소로 변경
 
 ```cpp
-image_api::ImageApiClient client("http://3.106.xxx.xxx:8080");
+image_api::ImageApiClient client("http://3.106.215.74:8080");
 ```
 
 ### 요청 구성
@@ -231,4 +232,4 @@ zlib1d.lib
 - DLL 버전 확장 검토
 
 ## 다운
-- [라이브러리 zip파일](https://github.com/seje06/cv_api_cpp_sdk/releases/download/1.0.3/image_api_sdk.zip)
+- [라이브러리 zip파일(Debug)](https://github.com/seje06/cv_api_cpp_sdk/releases/download/1.0.3/image_api_sdk.zip)
