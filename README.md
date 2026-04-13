@@ -232,4 +232,4 @@ zlib1d.lib
 - DLL 버전 확장 검토
 
 ## 다운
-- [라이브러리 zip파일(Debug)](https://github.com/seje06/cv_api_cpp_sdk/releases/download/1.0.3/image_api_sdk.zip)
+- [라이브러리 zip파일(Debug)](https://github.com/seje06/cv_api_cpp_sdk/releases/download/1.0.4/image_api_sdk.zip)
