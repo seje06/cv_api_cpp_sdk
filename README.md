@@ -223,3 +223,6 @@ zlib1d.dll
 - 다른 프로젝트 링크 테스트
 - Docker / Linux 환경 빌드 확인
 - DLL 버전 확장 검토
+
+## 다운
+- [라이브러리 zip파일](https://github.com/seje06/cv_api_cpp_sdk/releases/download/1.0.0/ImageApiSdk_Debug.zip)
