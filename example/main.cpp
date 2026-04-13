@@ -24,8 +24,8 @@ int main()
 
     // 2) 이미지 처리 요청 구성
     image_api::ProcessImageRequest request;
-    request.imageUrl = "https://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg";
-    request.outputFormat = "png";
+    request.imageUrl = "https://www.geoje.go.kr/upload_data/photodb/thumb/2025010621142591973.jpg";
+    request.outputFormat = "jpg";
 
     // 서버에 순서대로 적용될 작업들
     request.operations.push_back(image_api::MakeGrayscale());
