@@ -133,9 +133,13 @@ build/Debug/
 
 ## 예시 사용법
 
-### 헤더 포함
+### lib 언급 및 헤더 포함
 
 ```cpp
+#pragma comment(lib, "ImageApiSdk.lib")
+#pragma comment(lib, "libcurl-d.lib")
+#pragma comment(lib, "zlibd.lib") 
+
 #include "ImageApiClient.h"
 #include "Operations.h"
 ```
@@ -195,6 +199,8 @@ include/
 ImageApiSdk.lib
 libcurl-d.dll
 zlib1d.dll
+libcurl-d.lib
+zlib1d.lib
 ```
 
 ### Visual Studio 설정
