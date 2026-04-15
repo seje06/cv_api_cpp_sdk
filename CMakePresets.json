@@ -13,6 +13,19 @@
       "cacheVariables": {
         "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
       }
+    },
+    {
+      "name": "vs2026-x64-release",
+      "displayName": "VS 2026 x64 Release",
+      "generator": "Visual Studio 18 2026",
+      "binaryDir": "${sourceDir}/out/build/vs2026-x64-release",
+      "architecture": {
+        "value": "x64",
+        "strategy": "set"
+      },
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+      }
     }
   ],
   "buildPresets": [
@@ -20,6 +33,11 @@
       "name": "vs2026-x64-debug",
       "configurePreset": "vs2026-x64-debug",
       "configuration": "Debug"
+    },
+    {
+      "name": "vs2026-x64-release",
+      "configurePreset": "vs2026-x64-release",
+      "configuration": "Release"
     }
   ]
 }
