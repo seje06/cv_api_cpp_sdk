@@ -129,7 +129,7 @@ namespace image_api::internal
             curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
             curl_easy_setopt(curl, CURLOPT_TIMEOUT, 30L);
             curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteBodyCallback);
-            curl_easy_setopt(curl, CURLOPT_WRITEDATA, &outResponse.body);
+            curl_easy_setopt(curl, CURLOPT_WRITEDATA, &outResponse.body); // body가 아마 writeBodyCallback에 들어가는 userp
             curl_easy_setopt(curl, CURLOPT_HEADERFUNCTION, WriteHeaderCallback);
             curl_easy_setopt(curl, CURLOPT_HEADERDATA, &outResponse);
 
