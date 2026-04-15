@@ -125,14 +125,14 @@ build/Debug/
 
 ### 3. Operation Helper
 
-요청 JSON을 직접 문자열로 만들지 않기 위한 helper 제공
+요청 JSON을 직접 문자열로 만들지 않기 위한 helper 제공 - [모든 기능 설명](./FunctionExampleOfUse.md)
 
 - `MakeGrayscale()`
 - `MakeBlur(ksize, sigma)`
 - `MakeCannyEdge(threshold1, threshold2)`
-- `MakeResize(width, height)`
+- `MakeResize(width, height)` 등...
 
-## 예시 사용법 - [이미지 처리 함수 예시](./FunctionExampleOfUse.md)
+## 예시 사용법
 
 ### lib(Debug) 언급 및 헤더 포함
 
