@@ -216,20 +216,16 @@ zlib1d.lib
 ## 주의 할점
 
 - 수정한 경우 configure/build 다시 진행 필요
-- Debug / Release 결과물 구분 필요
 - x64 / x86 일치 필요
-- DLL은 링크용이 아니라 실행 시 필요
+- Release의 경우 런타임 라이브러리 설정이 `MD(다중스레드 DLL)`로 되어 있으니 활용 프로젝트에서도 같게 필요
 - 예제 코드의 base URL은 로컬 서버 기준일 수 있으므로 환경에 맞게 수정 필요
 - 서버가 켜져 있어야 실제 요청 가능
 
 ## 향후 개선
 
-- Release 빌드 결과 정리
-- `install()` 추가
 - `find_package(ImageApiSdk CONFIG REQUIRED)` 형태 지원
-- 다른 프로젝트 링크 테스트
 - Docker / Linux 환경 빌드 확인
 - DLL 버전 확장 검토
 
 ## 다운
-- [라이브러리 zip파일(Debug)](https://github.com/seje06/cv_api_cpp_sdk/releases/download/1.0.5/image_api_sdk.zip)
+- [라이브러리 zip파일](https://github.com/seje06/cv_api_cpp_sdk/releases/download/1.0.6/image_api_sdk.zip)
